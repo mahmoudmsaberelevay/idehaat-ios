@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*.certSigningRequest
+npm-debug.log*

@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: idehaat-pass-server
+    runtime: node
+    rootDir: wallet-server
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: PASS_TYPE_IDENTIFIER
+        value: pass.com.mahmoudsaber.idehaat.cards
+      - key: TEAM_IDENTIFIER
+        value: 8M53HJ223G
+      - key: ORGANIZATION_NAME
+        value: Idehaat
+      - key: API_KEYS
+        sync: false
+      - key: PASS_P12_BASE64
+        sync: false
+      - key: PASS_P12_PASSWORD
+        sync: false
+      - key: WWDR_CERT_BASE64
+        sync: false

@@ -1,0 +1,1156 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@, %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@، %2$@"
+          }
+        }
+      }
+    },
+    "%lld days before" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبلها بـ %lld يوم"
+          }
+        }
+      }
+    },
+    "%lld days left" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "باقي %lld يوم"
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حول التطبيق"
+          }
+        }
+      }
+    },
+    "Add card" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة كارت"
+          }
+        }
+      }
+    },
+    "Add QR code with card number" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة رمز QR برقم الكارت"
+          }
+        }
+      }
+    },
+    "Add without image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة بدون صورة"
+          }
+        }
+      }
+    },
+    "Adds a copy of this card to Apple Wallet. Adding it again updates the same pass." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بيضيف نسخة من الكارت ده لـ Apple Wallet. لو ضفته تاني هيتحدّث نفس الكارت."
+          }
+        }
+      }
+    },
+    "All" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكل"
+          }
+        }
+      }
+    },
+    "App language" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغة التطبيق"
+          }
+        }
+      }
+    },
+    "Apple Wallet" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Wallet"
+          }
+        }
+      }
+    },
+    "Apple Wallet isn't available on this device." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Wallet غير متاح على الجهاز ده."
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخلف"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        }
+      }
+    },
+    "Car License" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رخصة السيارة"
+          }
+        }
+      }
+    },
+    "Card images" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صور الكارت"
+          }
+        }
+      }
+    },
+    "Card name (e.g. National ID, Gezira Club)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم الكارت (مثلاً: البطاقة الشخصية، نادي الجزيرة)"
+          }
+        }
+      }
+    },
+    "Card number" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الكارت"
+          }
+        }
+      }
+    },
+    "Cards" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكروت"
+          }
+        }
+      }
+    },
+    "Choose Arabic or English for Idehaat from the iPhone Settings app." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختار العربي أو الإنجليزي لـ Idehaat من إعدادات الآيفون."
+          }
+        }
+      }
+    },
+    "Choose from Photos" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار من الصور"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
+          }
+        }
+      }
+    },
+    "Club Membership" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كارنيه النادي"
+          }
+        }
+      }
+    },
+    "Confirm it's you" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أكّد إنك صاحب الجهاز"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نسخ"
+          }
+        }
+      }
+    },
+    "Couldn't reach the Wallet server. Check your internet connection." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر الوصول لسيرفر Wallet. اتأكد من اتصال الإنترنت."
+          }
+        }
+      }
+    },
+    "Couldn't save" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر الحفظ"
+          }
+        }
+      }
+    },
+    "Dates" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التواريخ"
+          }
+        }
+      }
+    },
+    "Dates found on the card" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواريخ موجودة على الكارت"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        }
+      }
+    },
+    "Delete this card?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف الكارت ده؟"
+          }
+        }
+      }
+    },
+    "Details" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البيانات"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم"
+          }
+        }
+      }
+    },
+    "Double-tap to view full screen" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط مرتين للعرض بملء الشاشة"
+          }
+        }
+      }
+    },
+    "Driving License" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رخصة القيادة"
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل"
+          }
+        }
+      }
+    },
+    "Edit card" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل الكارت"
+          }
+        }
+      }
+    },
+    "Expired" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منتهي"
+          }
+        }
+      }
+    },
+    "EXPIRES" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ينتهي"
+          }
+        }
+      }
+    },
+    "Expires %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ينتهي %@"
+          }
+        }
+      }
+    },
+    "Expires in %lld days — time to renew." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هينتهي بعد %lld يوم — وقت التجديد."
+          }
+        }
+      }
+    },
+    "Expires on" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الانتهاء"
+          }
+        }
+      }
+    },
+    "Expires today" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ينتهي النهارده"
+          }
+        }
+      }
+    },
+    "Expires today." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بينتهي النهارده."
+          }
+        }
+      }
+    },
+    "Expiry" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتهاء"
+          }
+        }
+      }
+    },
+    "Expiry date" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الانتهاء"
+          }
+        }
+      }
+    },
+    "Found on the card" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اتقرأ من الكارت"
+          }
+        }
+      }
+    },
+    "Front" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأمام"
+          }
+        }
+      }
+    },
+    "Holder name" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم صاحب الكارت"
+          }
+        }
+      }
+    },
+    "Idehaat" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idehaat"
+          }
+        }
+      }
+    },
+    "Idehaat keeps personal copies of your cards. Copies are not official documents and don't replace the original cards." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idehaat بيحفظ نسخ شخصية من كروتك. النسخ دي مش مستندات رسمية ومتغنيش عن الكروت الأصلية."
+          }
+        }
+      }
+    },
+    "IDs, driving and car licenses, club cards and subscriptions — scanned, protected with Face ID, and ready for Apple Wallet." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البطايق الشخصية، رخص القيادة والعربيات، كارنيهات النادي والاشتراكات — متصوّرة، ومحمية بـ Face ID، وجاهزة لـ Apple Wallet."
+          }
+        }
+      }
+    },
+    "Import from Files" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد من الملفات"
+          }
+        }
+      }
+    },
+    "Include in iPhone backup" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضمّها للنسخة الاحتياطية للآيفون"
+          }
+        }
+      }
+    },
+    "Insurance" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التأمين"
+          }
+        }
+      }
+    },
+    "Issue" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إصدار"
+          }
+        }
+      }
+    },
+    "Issue date" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الإصدار"
+          }
+        }
+      }
+    },
+    "Issued on" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صدر في"
+          }
+        }
+      }
+    },
+    "Issuer" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جهة الإصدار"
+          }
+        }
+      }
+    },
+    "ISSUER" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جهة الإصدار"
+          }
+        }
+      }
+    },
+    "Issuer (e.g. Civil Registry, Traffic Dept.)" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جهة الإصدار (مثلاً: الأحوال المدنية، المرور)"
+          }
+        }
+      }
+    },
+    "Keep all your cards in one place" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل كروتك في مكان واحد"
+          }
+        }
+      }
+    },
+    "Lock with %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "القفل بـ %@"
+          }
+        }
+      }
+    },
+    "Membership level, plate number, anything useful…" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نوع العضوية، رقم اللوحة، أي معلومة مفيدة…"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم"
+          }
+        }
+      }
+    },
+    "NAME" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم"
+          }
+        }
+      }
+    },
+    "National ID" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البطاقة الشخصية"
+          }
+        }
+      }
+    },
+    "Needs attention" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محتاج متابعة"
+          }
+        }
+      }
+    },
+    "New card" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كارت جديد"
+          }
+        }
+      }
+    },
+    "No back image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفيش صورة للخلف"
+          }
+        }
+      }
+    },
+    "NOTE" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظة"
+          }
+        }
+      }
+    },
+    "Notes" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظات"
+          }
+        }
+      }
+    },
+    "NOTES" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظات"
+          }
+        }
+      }
+    },
+    "Number" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرقم"
+          }
+        }
+      }
+    },
+    "NUMBER" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرقم"
+          }
+        }
+      }
+    },
+    "Off" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيقاف"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسناً"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أخرى"
+          }
+        }
+      }
+    },
+    "Passcode" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رمز الدخول"
+          }
+        }
+      }
+    },
+    "Reading the card…" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جاري قراءة الكارت…"
+          }
+        }
+      }
+    },
+    "Remind me" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فكّرني"
+          }
+        }
+      }
+    },
+    "Reminder" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التذكير"
+          }
+        }
+      }
+    },
+    "Remove image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إزالة الصورة"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
+          }
+        }
+      }
+    },
+    "Scan a card" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر كارت"
+          }
+        }
+      }
+    },
+    "Scan with camera" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح بالكاميرا"
+          }
+        }
+      }
+    },
+    "Search cards" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوّر في الكروت"
+          }
+        }
+      }
+    },
+    "Security" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأمان"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
+          }
+        }
+      }
+    },
+    "Share front image" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة صورة الأمام"
+          }
+        }
+      }
+    },
+    "Show card photo on the pass" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إظهار صورة الكارت على Wallet"
+          }
+        }
+      }
+    },
+    "Side" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوجه"
+          }
+        }
+      }
+    },
+    "Storage" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التخزين"
+          }
+        }
+      }
+    },
+    "Subscription" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشتراك"
+          }
+        }
+      }
+    },
+    "Tap a number to use it" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط على الرقم لاستخدامه"
+          }
+        }
+      }
+    },
+    "Text is read on your iPhone only." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قراءة النص بتتم على الآيفون بتاعك بس."
+          }
+        }
+      }
+    },
+    "The app locks every time you leave it. Card images are encrypted by iOS and hidden from the app switcher." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التطبيق بيقفل كل ما تخرج منه. صور الكروت متشفّرة بواسطة iOS ومخفية من شاشة التطبيقات المفتوحة."
+          }
+        }
+      }
+    },
+    "The card and its images will be removed from this iPhone. Passes already added to Wallet stay there until you remove them." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكارت وصوره هيتمسحوا من الآيفون ده. اللي اتضاف لـ Wallet هيفضل هناك لحد ما تشيله."
+          }
+        }
+      }
+    },
+    "The image couldn't be saved. Make sure your iPhone has free space." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر حفظ الصورة. اتأكد إن فيه مساحة فاضية على الآيفون."
+          }
+        }
+      }
+    },
+    "The pass couldn't be read. Check the server certificates." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّرت قراءة الكارت. راجع شهادات السيرفر."
+          }
+        }
+      }
+    },
+    "The Wallet server isn't set up yet. Add its URL and key in AppConfig.swift." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيرفر Wallet لسه متظبطش. ضيف الرابط والمفتاح في AppConfig.swift."
+          }
+        }
+      }
+    },
+    "The Wallet server returned an error (%lld). Please try again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سيرفر Wallet رجّع خطأ (%lld). حاول تاني."
+          }
+        }
+      }
+    },
+    "This pass is a personal copy created with Idehaat. It is not an official document and does not replace the original card." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكارت ده نسخة شخصية معمولة بـ Idehaat. مش مستند رسمي ولا يغني عن الكارت الأصلي."
+          }
+        }
+      }
+    },
+    "Tip: with the camera scanner you can scan the front and then the back in one go." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصيحة: بالكاميرا تقدر تصوّر الوش وبعده الضهر مرة واحدة."
+          }
+        }
+      }
+    },
+    "To create a Wallet pass, the card details (and the photo, if enabled) are sent securely to the Idehaat signing server, signed, and returned immediately. Nothing is stored on the server." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "علشان يتعمل كارت Wallet، بيانات الكارت (والصورة لو مفعّلة) بتتبعت بشكل آمن لسيرفر التوقيع، بتتوقّع وترجع فوراً. مفيش أي حاجة بتتخزن على السيرفر."
+          }
+        }
+      }
+    },
+    "Type" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النوع"
+          }
+        }
+      }
+    },
+    "TYPE" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النوع"
+          }
+        }
+      }
+    },
+    "Unlock to view your cards" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح القفل علشان تشوف كروتك"
+          }
+        }
+      }
+    },
+    "Unlock with %@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح بـ %@"
+          }
+        }
+      }
+    },
+    "Upload a photo" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارفع صورة"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار"
+          }
+        }
+      }
+    },
+    "Wallet color" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لون الكارت في Wallet"
+          }
+        }
+      }
+    },
+    "Work ID" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كارنيه العمل"
+          }
+        }
+      }
+    },
+    "Your cards are locked" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كروتك مقفولة"
+          }
+        }
+      }
+    },
+    "Your cards are stored only on this iPhone. Turn this on if you want them restored when you move to a new iPhone from a backup." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كروتك محفوظة على الآيفون ده بس. فعّل الخيار ده لو عايزها ترجع لما تنقل لآيفون جديد من نسخة احتياطية."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
