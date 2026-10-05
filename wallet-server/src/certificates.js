@@ -34,9 +34,13 @@ export function extractCertificates(config) {
             fs.chmodSync(wwdrPath, 0o600);
         }
 
-        const signerPem = fs.readFileSync(signerCertPath, "utf8");
+        const signerPem = selectSignerCertificate(
+            fs.readFileSync(signerCertPath, "utf8"),
+            config.passTypeIdentifier
+        );
         const signerKeyPem = fs.readFileSync(signerKeyPath, "utf8");
         const wwdrPem = fs.readFileSync(wwdrPath, "utf8");
+        writeSecret(signerCertPath, signerPem);
         validateCertificates(signerPem, signerKeyPem, wwdrPem, config);
 
         fs.rmSync(p12Path, { force: true });
@@ -52,6 +56,25 @@ export function extractCertificates(config) {
             "Check PASS_P12_BASE64, PASS_P12_PASSWORD, and WWDR_CERT_BASE64."
         );
     }
+}
+
+function selectSignerCertificate(pemContents, passTypeIdentifier) {
+    const certificates = pemContents.match(
+        /-----BEGIN CERTIFICATE-----[\s\S]*?-----END CERTIFICATE-----/g
+    ) || [];
+    const expectedName = `CN=Pass Type ID: ${passTypeIdentifier}`;
+    const matchingCertificate = certificates.find((certificate) => {
+        try {
+            return new crypto.X509Certificate(certificate).subject.includes(expectedName);
+        } catch {
+            return false;
+        }
+    });
+
+    if (!matchingCertificate) {
+        throw configurationError("the certificate does not match PASS_TYPE_IDENTIFIER.");
+    }
+    return `${matchingCertificate}\n`;
 }
 
 function validateCertificates(signerPem, signerKeyPem, wwdrPem, config) {
