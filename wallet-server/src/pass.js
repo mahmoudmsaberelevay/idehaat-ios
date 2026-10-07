@@ -57,45 +57,7 @@ export function parsePassRequest(value) {
 }
 
 export function createPass(request, config, certificates) {
-    const passJson = {
-        formatVersion: 1,
-        passTypeIdentifier: config.passTypeIdentifier,
-        teamIdentifier: config.teamIdentifier,
-        organizationName: config.organizationName,
-        description: `${request.title} card`,
-        serialNumber: request.serialNumber,
-        logoText: request.title,
-        backgroundColor: walletColor(request.backgroundColor),
-        foregroundColor: walletColor(request.foregroundColor),
-        labelColor: walletColor(request.labelColor),
-        ...(request.expiryDate ? { expirationDate: request.expiryDate } : {}),
-        storeCard: {
-            headerFields: compactFields([
-                field("expiry", request.labels.expiry, displayDate(request.expiryDate)),
-            ]),
-            primaryFields: [field("title", "", request.title)],
-            secondaryFields: compactFields([
-                field("holder", request.labels.holder, request.holderName),
-                field("number", request.labels.number, request.number),
-            ]),
-            auxiliaryFields: compactFields([
-                field("issuer", request.labels.issuer, request.issuer),
-                field("category", request.labels.category, request.categoryName),
-            ]),
-            backFields: compactFields([
-                field("notes", request.labels.notes, request.notes),
-                field("disclaimer", request.labels.disclaimerTitle, request.disclaimer),
-            ]),
-        },
-        ...(request.barcodeMessage ? {
-            barcodes: [{
-                format: "PKBarcodeFormatQR",
-                message: request.barcodeMessage,
-                messageEncoding: "iso-8859-1",
-                altText: request.barcodeMessage,
-            }],
-        } : {}),
-    };
+    const passJson = createPassJson(request, config);
 
     const files = {
         "pass.json": Buffer.from(JSON.stringify(passJson)),
@@ -119,6 +81,50 @@ export function createPass(request, config, certificates) {
     files.signature = signManifest(files["manifest.json"], certificates);
 
     return Buffer.from(zipSync(files, { level: 6 }));
+}
+
+export function createPassJson(request, config) {
+    return {
+        formatVersion: 1,
+        passTypeIdentifier: config.passTypeIdentifier,
+        teamIdentifier: config.teamIdentifier,
+        organizationName: config.organizationName,
+        description: `${request.title} card`,
+        serialNumber: request.serialNumber,
+        logoText: request.title,
+        backgroundColor: walletColor(request.backgroundColor),
+        foregroundColor: walletColor(request.foregroundColor),
+        labelColor: walletColor(request.labelColor),
+        ...(request.expiryDate ? { expirationDate: request.expiryDate } : {}),
+        storeCard: {
+            headerFields: compactFields([
+                field("expiry", request.labels.expiry, displayDate(request.expiryDate)),
+            ]),
+            // Wallet draws primary-field text directly over the strip artwork in a
+            // very large font. The title is already shown as logoText, so omitting
+            // primaryFields keeps the user's card image clear and unobstructed.
+            secondaryFields: compactFields([
+                field("holder", request.labels.holder, request.holderName),
+                field("number", request.labels.number, request.number),
+            ]),
+            auxiliaryFields: compactFields([
+                field("issuer", request.labels.issuer, request.issuer),
+                field("category", request.labels.category, request.categoryName),
+            ]),
+            backFields: compactFields([
+                field("notes", request.labels.notes, request.notes),
+                field("disclaimer", request.labels.disclaimerTitle, request.disclaimer),
+            ]),
+        },
+        ...(request.barcodeMessage ? {
+            barcodes: [{
+                format: "PKBarcodeFormatQR",
+                message: request.barcodeMessage,
+                messageEncoding: "iso-8859-1",
+                altText: request.barcodeMessage,
+            }],
+        } : {}),
+    };
 }
 
 function signManifest(manifest, certificates) {
